@@ -79,7 +79,7 @@ public class BattleLutemonActivity extends AppCompatActivity implements AdapterV
 
     private void fight(Lutemon lutemonA, Lutemon lutemonB) {
 
-        // Display lutemonA stats
+        // Display lutemonA stats.
         battleText.append(lutemonA.getColor() + "(" + lutemonA.getName() + ") att:" + lutemonA.getAttack() + "; def: " + lutemonA.getDefense() + "; exp: " + lutemonA.getExperience() + "; health: " + lutemonA.getHealth() + "/" + lutemonA.getMaxHealth() + "\n");
 
         // Display lutemonB stats

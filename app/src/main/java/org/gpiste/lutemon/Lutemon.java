@@ -59,7 +59,7 @@ public class Lutemon {
         return id;
     }
 
-    //levelUp method to train lutemons in TrainLutemonActivity
+    //levelUp method to train lutemons in TrainLutemonActivity..
     public void levelUp(String stat) {
         switch (stat) {
             case "attack":
@@ -79,7 +79,7 @@ public class Lutemon {
         }
     }
 
-    // method to provide lutemonlist with objects.
+    // method to provide lutemonlist with objects...
     public static ArrayList<Lutemon> getLutemonList() {
         return lutemonList;
     }
