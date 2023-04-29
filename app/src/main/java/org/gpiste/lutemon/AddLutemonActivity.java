@@ -48,7 +48,7 @@ public class AddLutemonActivity extends AppCompatActivity {
                 //initialize all of the variables in order to pass them to Lutemon.
                 int attack, defense, experience = 0, MaxHealth = 0, health = 0, id = 0;
 
-                // switch-case where the color string defines the stats of each Lutemon
+                // switch-case where the color string defines the stats of each Lutemon.
                 switch (color){
                     case "White":
                         attack = 5;

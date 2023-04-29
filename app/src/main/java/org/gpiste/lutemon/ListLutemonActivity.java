@@ -15,7 +15,7 @@ public class ListLutemonActivity extends AppCompatActivity {
         setContentView(R.layout.listlutemon_activity);
 
         ListView lutemonListV = findViewById(R.id.lutemonListView);
-        // call lutemon listadapter to make Lutemons appear in activity
+        // call lutemon listadapter to make Lutemons appear in activity.
         LutemonListAdapter adapter  = new LutemonListAdapter(this, Lutemon.getLutemonList());
         lutemonListV.setAdapter(adapter);
 

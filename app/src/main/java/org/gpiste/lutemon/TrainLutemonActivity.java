@@ -125,7 +125,7 @@ public class TrainLutemonActivity extends AppCompatActivity implements AdapterVi
         defenseLvlUpButton.setEnabled(false);
         maxHealthLvlUpButton.setEnabled(false);
     }
-    // after level up set trainCount to 0 in order to Level up multiple times
+    // after level up set trainCount to 0 in order to Level up multiple times!
     private void enableTrainButton() {
         trainCount = 0;
         trainButton.setEnabled(true);

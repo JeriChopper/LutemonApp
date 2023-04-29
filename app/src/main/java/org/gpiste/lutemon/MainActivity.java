@@ -20,7 +20,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-    // Main menu buttons and their ClickListeners to open new activities.
+    // Main menu buttons and their ClickListeners to open new activities..
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

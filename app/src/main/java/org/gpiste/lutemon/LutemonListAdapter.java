@@ -33,7 +33,7 @@ public class LutemonListAdapter extends ArrayAdapter<Lutemon> {
 
         Lutemon lutemon = LutemonArrayList.get(position);
 
-        // set all stats to string and display them in convertview
+        // set all stats to string and display them in convertview.
         TextView LutemonNameText = convertView.findViewById(R.id.LutemonNameTextView);
         LutemonNameText.setText("Name: " + lutemon.getName());
 
