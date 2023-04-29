@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9fb3b3">
+
+    <TextView
+        android:id="@+id/lutemonATextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:text="Lutemon A:"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/lutemonASpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="24dp"
+        android:layout_toRightOf="@+id/lutemonATextView"
+        android:background="#ffd5d5"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/lutemonBTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lutemonATextView"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="55dp"
+        android:text="Lutemon B:"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/lutemonBSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lutemonASpinner"
+        android:background="#ffd5d5"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="24dp"
+        android:layout_toRightOf="@+id/lutemonBTextView"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/battleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lutemonBSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Battle"
+        android:textSize="24sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/battleButton"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="24dp">
+
+        <TextView
+            android:id="@+id/BattleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/battleButton"
+            android:gravity="center"
+            android:hint="This is where the battle will happen.."
+            android:textSize="15sp" />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/LutemonNameTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:hint="Name"
+        android:background="#ff00ff"
+        />
+
+    <TextView
+        android:id="@+id/LutemonColorTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:hint="Color"
+        android:background="#ff00ff"/>
+
+    <TextView
+        android:id="@+id/LutemonAttackTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:hint="Attack"
+        android:background="#ff00ff"/>
+    <TextView
+        android:id="@+id/LutemonDefenseTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:hint="Defense"
+        android:background="#ff00ff"/>
+    <TextView
+        android:id="@+id/LutemonExperienceTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:hint="Experience"
+        android:background="#ff00ff"/>
+    <TextView
+        android:id="@+id/LutemonMaxHealthTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:hint="MaxHealth"
+        android:background="#ff00ff"/>
+
+</LinearLayout>

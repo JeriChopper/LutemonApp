@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9fb3b3">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="228dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp">
+
+        <RadioButton
+            android:id="@+id/radio_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="White" />
+
+        <RadioButton
+            android:id="@+id/radio_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green" />
+
+        <RadioButton
+            android:id="@+id/radio_pink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pink" />
+
+        <RadioButton
+            android:id="@+id/radio_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange" />
+
+        <RadioButton
+            android:id="@+id/radio_black"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Black" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edittext_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:hint="Name Lutemon"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="143dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/edittext_selected"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Save" />
+
+</RelativeLayout>
+
+
+
