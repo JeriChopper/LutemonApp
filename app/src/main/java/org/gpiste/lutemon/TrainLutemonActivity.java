@@ -52,7 +52,7 @@ public class TrainLutemonActivity extends AppCompatActivity implements AdapterVi
 
         lutemonSpinner.setAdapter(adapter);
 
-        if (lutemonSpinner.getSelectedItem() != null) {
+        if (!lutemonList.isEmpty() && lutemonSpinner.getSelectedItem() != null) {
             Lutemon lutemon = lutemonList.get(lutemonSpinner.getSelectedItemPosition());
             updateLutemonInfo(lutemon);
         } else{
@@ -127,9 +127,12 @@ public class TrainLutemonActivity extends AppCompatActivity implements AdapterVi
         trainButton.setEnabled(true);
     }
 
-    //methods included inorder to make OnSelectedItemListener work properly
+    /// this is done so that the spinner knows which lutemon is the right lutemon and does not display wrong level.
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        this.id = position;
+        Lutemon lutemon = Lutemon.getLutemonList().get(position);
+        updateLutemonInfo(lutemon);
     }
 
     @Override
