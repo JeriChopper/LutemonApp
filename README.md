@@ -1,7 +1,9 @@
 # LutemonApp
 Lutemon App is a game where you are able to create Lutemons and train them and fight against other Lutemons
 
-Features:
+
+
+#Features:
 - Create Lutemons with names and colors
 - Train Lutemons to imporve their statistics with the TrainClicker
 - Battle intensely to find out who is the best Lutemon
