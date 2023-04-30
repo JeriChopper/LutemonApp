@@ -19,6 +19,8 @@ I am fully responsible for the creation of this app. No other contributers.
 - BattleLutemonActivity
 - Lutemon
 
+![image](https://user-images.githubusercontent.com/104365118/235348927-39a54ab3-4e59-480f-bbdd-f94941fe2f05.png)
+
 
 # MainActivity:
 MainActivity acts as the Home screen of the Lutemon game. There you are able to choose which activities you want to open. 
