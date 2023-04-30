@@ -41,7 +41,7 @@ This is where you battle with the Lutemons. You have two spinners where you can 
 Lutemon class acts as the foundation of the Lutemon object as most methods come from this class. 
 
 
-Installation:
+# Installation:
 1. Clone the repository: git clone https://github.com/JeriChopper/LutemonApp.git
 2. Open the project in Android Studio and build the app
 3. Run the app on emulator or physical device.
