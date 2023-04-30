@@ -73,6 +73,7 @@ public class Lutemon {
             case "max health":
                 this.maxHealth += 5;
                 this.experience += 1;
+                this.health += 5; // increase health aswell in order to have health and MaxHealth be same at the start of the fight
                 break;
             default:
                 break;
