@@ -1,11 +1,14 @@
 // Jericho Koskinen 607024
 // Olen tehnyt tämän harjoitustyön täysin itse.
+///
 // Lähteitä käytetty:
 // https://abhiandroid.com/ui/listview
 // https://www.youtube.com/watch?v=fwSJ1OkK304
 //https://stackoverflow.com/questions/66898154/how-exactly-do-adapters-for-arraylists-in-android-studio-work
 //https://www.geeksforgeeks.org/how-to-center-a-button-in-a-linear-layout-in-android/
-
+//https://encycolorpedia.com/a4c639
+//https://developer.android.com/develop/ui/views/theming/look-and-feel
+//https://www.youtube.com/watch?v=on_OrrX7Nw4
 
 package org.gpiste.lutemon;
 
