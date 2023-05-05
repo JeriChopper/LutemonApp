@@ -1,5 +1,5 @@
 # LutemonApp
-Lutemon App is a game where you are able to create Lutemons and train them and fight against other Lutemons.
+Lutemon App is a Android Studio game where you are able to create Lutemons and train them and fight against other Lutemons.
 
 I am fully responsible for the creation of this app. No other contributors.
 
@@ -32,7 +32,7 @@ AddLutemonActivity has a option of colors to choose and a input field to enter y
 ListLutemonActivity is basically just a ListView of all of the added Lutemons.
 
 # LutemonListAdapter:
-This is a complement for the ListLutemonActivity, where all of the "items" are created for the statistics to be visible on screen. Statistics are taken Lutemon class.
+This is a complement for the ListLutemonActivity, where all of the "items" are created for the statistics to be visible on screen. Statistics are taken from Lutemon class.
 
 # TrainLutemonActivity:
 This is a training ground for an individual Lutemon. The way Training works is that you click Train button until you unlock Level up- method. You can increase your statistics to have a better match up against the enemies.
